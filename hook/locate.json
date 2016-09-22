@@ -3,7 +3,7 @@
   "mydevices": true,
   "url": "https://location.services.mozilla.com/v1/geolocate?key=YOUR_KEY_HERE",
   "requestType": "POST",
-  "responseTemplate": "{{location.lat}},{{location.lng}},{{location.accuracy}}",
+  "responseTemplate": "{{location.lat}},{{location.lng}},{{accuracy}}",
   "json": {
     "wifiAccessPoints": [
       { "signalStrength": "{{list.0.s}}", "macAddress": "{{list.0.m}}" },
