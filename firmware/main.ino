@@ -5,7 +5,7 @@ unsigned int lastPublish;
 void setup() {
     Serial.begin(115200);
   
-  Particle.subscribe("hook-response/wifi_scan");
+//  Particle.subscribe("hook-response/wifi_scan");
   
   //{\"location\":{\"lat\":44.9490002,\"lng\":-93.2920491},\"accuracy\":63.3364459}
   //ook-response/wifi_scan/0","data":"{\"location\":{\"lat\":44.9490002,\"lng\":-93.2920491},\"accuracy\":63.3364459}","ttl":"60","published_at":"2016-09-22T22:05:38.800Z","coreid":"particle-internal"}
