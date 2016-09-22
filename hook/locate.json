@@ -1,0 +1,21 @@
+{
+  "event": "wifi_scan",
+  "mydevices": true,
+  "url": "https://location.services.mozilla.com/v1/geolocate?key=YOUR_KEY_HERE",
+  "requestType": "POST",
+  "responseTemplate": "{{location.lat}},{{location.lng}},{{location.accuracy}}",
+  "json": {
+    "wifiAccessPoints": [
+      { "signalStrength": "{{list.0.s}}", "macAddress": "{{list.0.m}}" },
+      { "signalStrength": "{{list.1.s}}", "macAddress": "{{list.1.m}}" },
+      { "signalStrength": "{{list.2.s}}", "macAddress": "{{list.2.m}}" },
+      { "signalStrength": "{{list.3.s}}", "macAddress": "{{list.3.m}}" },
+      { "signalStrength": "{{list.4.s}}", "macAddress": "{{list.4.m}}" }
+    ]
+  },
+  "noDefaults": true,
+  "rejectUnauthorized": true
+}
+
+
+
