@@ -1,0 +1,1 @@
+particle compile photon . --saveTo location.bin

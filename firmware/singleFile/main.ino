@@ -92,6 +92,8 @@ void onLocationReceived(const char *event, const char *data) {
     
     
     Serial.println(String::format("Parsed into %f, %f, %f ", latitude, longitude, altitude));
+    Serial.println(String::format("You're on a map! https://www.google.com/maps/place/%f,%f", latitude, longitude));
+    
     String dataJson = String("{")
         + "\"c_lat\":" + String::format("%f", latitude)
         + ",\"c_lng\":" + String::format("%f", longitude)
