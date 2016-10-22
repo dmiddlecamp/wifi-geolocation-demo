@@ -1,6 +1,6 @@
 #include "WifiLocate.h"
 
-#define UPDATE_FREQUENCY 15000
+#define UPDATE_FREQUENCY 2 * 60000
 
 unsigned int lastUpdate;
 
