@@ -1,7 +1,7 @@
 Particle Wifi-Geolocation Demo!
 ---
 
-Uses Wifi.Scan and the Mozilla Location Services API to pinpoint your Particle WiFi device worldwide!
+Uses Wifi.Scan and the Google Geolocation API / Mozilla Location Services API to find your Particle Wi-Fi device!
 
 
 Checkout the project writeup on Hackster
